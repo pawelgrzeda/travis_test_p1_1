@@ -6,8 +6,7 @@ jobs:
     - language: cpp
       compiler: g++
       script:
-        - clang++ hello.cpp -o travis_gcc_cpp98
-        - ./travis_gcc_cpp98
+        - clang++ hello.cpp
     - language: python
       script:
         - python hello.py
