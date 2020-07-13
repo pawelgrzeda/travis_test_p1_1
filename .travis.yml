@@ -6,7 +6,7 @@ jobs:
     - language: cpp
       compiler: g++
       script:
-        - clang++ hello.cpp
+        - g++ hello.cpp
     - language: python
       script:
         - python hello.py
