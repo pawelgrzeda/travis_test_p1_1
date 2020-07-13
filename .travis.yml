@@ -4,9 +4,9 @@ arch: arm64-graviton2
 jobs:
   include:
     - language: cpp
-      compiler: gcc
+      compiler: clang
       script:
-        - g++ hello.cpp -o travis_gcc_cpp98
+        - clang++ hello.cpp -o travis_gcc_cpp98
         - ./travis_gcc_cpp98
     - language: python
       script:
