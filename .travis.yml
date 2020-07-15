@@ -9,6 +9,12 @@ jobs:
         - g++ hello.cpp -o travis_gcc_cpp98
         - ./travis_gcc_cpp98
         
+    - language: cpp
+      compiler: clang
+      script:
+        - clang++ hello.cpp -o travis_gcc_cpp98
+        - ./travis_gcc_cpp98
+        
     - language: python
       script:
         - python hello.py
