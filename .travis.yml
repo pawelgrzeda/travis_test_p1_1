@@ -22,4 +22,4 @@ jobs:
       rvm:
         - 2.5
       script:
-        - ruby hello.rb
+        - ruby hello.rb 
